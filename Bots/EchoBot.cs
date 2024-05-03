@@ -16,7 +16,7 @@ namespace EchoBot1.Bots
             var replyText = "";
             if (activityText == "how are you?")
             {
-                replyText = "I am good what about you ";
+                replyText = "I am good what about  you";
             }
             else if (activityText == "bye")
             {
