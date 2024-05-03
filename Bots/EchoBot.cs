@@ -18,6 +18,10 @@ namespace EchoBot1.Bots
             {
                 replyText = "I am good what about you";
             }
+            else if (activityText == "bye")
+            {
+                replyText = "I am good, you get lost.";
+            }
             else
             {
                 replyText = activityText;
